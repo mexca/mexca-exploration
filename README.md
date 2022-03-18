@@ -3,3 +3,4 @@ This repository is dedicated to storing and sharing code for exploring software 
 
 ## Notebooks
 [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace): explore_openface.ipynb
+[openSMILE](https://audeering.github.io/opensmile-python/): explore_opensmile.ipynb
