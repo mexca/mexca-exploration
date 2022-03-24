@@ -5,3 +5,7 @@ This repository is dedicated to storing and sharing code for exploring software 
 [OpenFace](https://github.com/TadasBaltrusaitis/OpenFace): explore_openface.ipynb
 
 [openSMILE](https://audeering.github.io/opensmile-python/): explore_opensmile.ipynb
+
+[SpeechBrain](https://speechbrain.github.io/index.html):
+- explore_speechbrain_vad.ipynb for voice activity detection
+- explore_speechbrain_diary.ipynb for speaker  diarization
