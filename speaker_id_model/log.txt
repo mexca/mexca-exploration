@@ -1,0 +1,14 @@
+Epoch: 1, lr: 1.00e-03 - train loss: 1.27 - valid loss: 1.38, valid error: 6.67e-01
+Epoch loaded: 1 - test loss: 1.40, test error: 6.67e-01
+Epoch: 1, lr: 1.00e-03 - train loss: 1.27 - valid loss: 1.38, valid error: 6.67e-01
+Epoch: 2, lr: 7.75e-04 - train loss: 1.16 - valid loss: 1.48, valid error: 6.67e-01
+Epoch: 3, lr: 5.50e-04 - train loss: 1.14 - valid loss: 1.61, valid error: 6.67e-01
+Epoch: 4, lr: 3.25e-04 - train loss: 1.13 - valid loss: 1.26, valid error: 6.67e-01
+Epoch: 5, lr: 1.00e-04 - train loss: 1.11 - valid loss: 1.14, valid error: 1.00e+00
+Epoch loaded: 5 - test loss: 1.33, test error: 1.00e+00
+Epoch loaded: 5 - test loss: 1.33, test error: 1.00e+00
+Epoch: 1, lr: 1.00e-03 - train loss: 1.27 - valid loss: 1.38, valid error: 6.67e-01
+Epoch: 2, lr: 7.75e-04 - train loss: 1.16 - valid loss: 1.48, valid error: 6.67e-01
+Epoch: 3, lr: 5.50e-04 - train loss: 1.14 - valid loss: 1.61, valid error: 6.67e-01
+Epoch: 4, lr: 3.25e-04 - train loss: 1.13 - valid loss: 1.26, valid error: 6.67e-01
+Epoch: 5, lr: 1.00e-04 - train loss: 1.11 - valid loss: 1.14, valid error: 1.00e+00
