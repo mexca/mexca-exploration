@@ -17,8 +17,6 @@ error_stats: !name:speechbrain.utils.metric_stats.MetricStats
     metric: !name:speechbrain.nnet.losses.classification_error
         reduction: batch
 
-ckpt_interval_minutes: 1 # save checkpoint every N min
-
 # Feature parameters
 n_mels: 23
 
@@ -61,6 +59,11 @@ classifier: !new:speechbrain.lobes.models.Xvector.Classifier
   lin_neurons: !ref <emb_dim>
   out_neurons: !ref <n_classes>
 
+compute_cost: !new:speechbrain.nnet.losses.LogSoftmaxWrapper
+    loss_fn: !new:speechbrain.nnet.losses.AdditiveAngularMargin
+        margin: 0.2
+        scale: 30
+
 # The first object passed to the Brain class is this "Epoch Counter"
 # which is saved by the Checkpointer so that training can be resumed
 # if it gets interrupted at any point.
@@ -87,11 +90,3 @@ lr_annealing: !new:speechbrain.nnet.schedulers.LinearScheduler
     initial_value: !ref <lr_start>
     final_value: !ref <lr_final>
     epoch_count: !ref <number_of_epochs>
-
-checkpointer: !new:speechbrain.utils.checkpoints.Checkpointer
-    checkpoints_dir: !ref <dir>
-    recoverables:
-        embedding_model: !ref <embedding_model>
-        classifier: !ref <classifier>
-        normalizer: !ref <mean_var_norm>
-        counter: !ref <epoch_counter>
