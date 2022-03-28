@@ -14,3 +14,4 @@ This repository is dedicated to storing and sharing code for exploring software 
 [SpeechBrain](https://speechbrain.github.io/index.html):
 - explore_speechbrain_vad.ipynb for voice activity detection
 - explore_speechbrain_diary.ipynb for speaker diarization
+- explore_speechbrain_id.ipynb for speaker identification
